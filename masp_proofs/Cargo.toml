@@ -19,7 +19,9 @@ masp_primitives = { version = "1.0.0", path = "../masp_primitives" }
 
 # Dependencies exposed in a public API:
 # (Breaking upgrades to these require a breaking upgrade to this crate.)
-bellman = { version = "0.14", default-features = false, features = ["groth16"] }
+bellman = { git = "https://github.com/gnosed/bellman.git", branch = "ffts-opt", default-features = false, features = [
+  "groth16",
+] }
 bls12_381 = "0.8"
 group = "0.13"
 jubjub = "0.10"

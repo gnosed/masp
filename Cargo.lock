@@ -125,8 +125,7 @@ checksum = "8a32fd6af2b5827bce66c29053ba0e7c42b9dcab01835835058558c10851a46b"
 [[package]]
 name = "bellman"
 version = "0.14.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9afceed28bac7f9f5a508bca8aeeff51cdfa4770c0b967ac55c621e2ddfd6171"
+source = "git+https://github.com/gnosed/bellman.git?branch=ffts-opt#109af0c19294ed3c225ac781e925a4f4deacf2bc"
 dependencies = [
  "bitvec",
  "blake2s_simd",
